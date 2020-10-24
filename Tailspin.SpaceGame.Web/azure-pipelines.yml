@@ -37,7 +37,7 @@ steps:
   workingDirectory: $(wwwrootDir)
 
 - task: NuGetCommand@2
-  displayName: 'Lintao Restore project dependencies'
+  displayName: 'Lintao test Restore project dependencies'
   inputs:
     command: 'restore'
     restoreSolution: '**/*.sln'
